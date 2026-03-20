@@ -1,0 +1,13 @@
+void update(int node, int l, int r, int i, int val){
+        if(l==r) {
+            Tree[node] = a[l];
+            return;
+        }
+        int mid = l + (r-l)/2;
+        if(i <= mid){
+            update(node*2, l, mid, i, val);
+        } else {
+            update(node*2+1, mid+1, r, i, val);
+        }
+        Tree[node] = Tree[node*2]^Tree[node*2+1];
+    }

@@ -1,0 +1,8 @@
+https://codeforces.com/problemset -O "D:\\competitions\\codeforces\\ProblemSet" -* +*.codeforces.com/problemset* +*.codeforces.com/problem* +*.codeforces.com/assets/* +*.codeforces.com/images/* -v
+File generated automatically on Wed, 21 May 2025 14:56:33, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+
